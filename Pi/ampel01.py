@@ -14,6 +14,7 @@ GPIO.setup(Ampel[gruen], GPIO.OUT, initial=True)
 
 print("Strg+C beendet das Programm")
 
+
 try:
     while True:
         time.sleep(2)
